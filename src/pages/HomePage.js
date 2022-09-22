@@ -1,8 +1,7 @@
 import React, {useContext} from 'react';
 import {PersonaAdd} from '../components/PersonaAdd';
 import {PersonaList} from '../components/PersonaList';
-import io from 'socket.io-client';
-import { useSocket } from '../hooks/useSocket';
+
 import { SocketContext } from '../context/SocketContext';
 import { PersonasChart } from '../components/PersonasChart';
 
